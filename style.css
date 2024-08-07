@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgb(211, 211, 211);
+    font-family: "Poppins";
+}
+.title{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5rem;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.container__logo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    min-height: 500px;
+    border: 2px solid white;
+    padding-top: 5rem;
+}
+
+.letter{
+    display: inline-block;
+    font-size: 3rem;
+    transition: filter 0.8s ease-in-out;
+    cursor: pointer;
+}
+.letter:hover{
+    
+    filter: blur(.1rem);
+}
+.space{
+    width: 2rem;
+}
+.logo__letters{
+    position: relative;
+}
